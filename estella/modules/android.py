@@ -2,8 +2,8 @@ import urllib
 
 from hurry.filesize import size as sizee
 from telethon import custom
-from haruka.events import register
-from haruka.modules.tr_engine.strings import tld
+from estella.events import register
+from estella.modules.tr_engine.strings import tld
 
 from requests import get
 from requests.exceptions import Timeout
