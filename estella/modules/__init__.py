@@ -1,4 +1,4 @@
-from haruka import LOAD, NO_LOAD, LOGGER
+from estella import LOAD, NO_LOAD, LOGGER
 
 
 def __list_all_modules():
