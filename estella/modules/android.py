@@ -33,7 +33,7 @@ async def los(event):
             timeout=5)
     except Timeout:
         await event.reply(
-            "Haruka Aya have been trying to connect to Github User Content, It seem like Github User Content is down"
+            "Estella have been trying to connect to Github User Content, It seem like Github User Content is down"
         )
         return
 
@@ -93,13 +93,13 @@ async def evo(event):
             timeout=5)
     except Timeout:
         await event.reply(
-            "Haruka Aya have been trying to connect to Github User Content, It seem like Github User Content is down"
+            "Estella have been trying to connect to Github User Content, It seem like Github User Content is down"
         )
         return
 
     if fetch.status_code in [500, 504, 505]:
         await event.reply(
-            "Haruka Aya have been trying to connect to Github User Content, It seem like Github User Content is down"
+            "Estella have been trying to connect to Github User Content, It seem like Github User Content is down"
         )
         return
 
@@ -148,7 +148,7 @@ async def phh(event):
             timeout=5)
     except Timeout:
         await event.reply(
-            "Haruka Aya have been trying to connect to Github User Content, It seem like Github User Content is down"
+            "Estella have been trying to connect to Github User Content, It seem like Github User Content is down"
         )
         return
 
@@ -187,7 +187,7 @@ async def bootleggers(event):
             timeout=5)
     except Timeout:
         await event.reply(
-            "Haruka Aya have been trying to connect to Github User Content, It seem like Github User Content is down"
+            "Estella have been trying to connect to Github User Content, It seem like Github User Content is down"
         )
         return
 
@@ -264,7 +264,7 @@ async def magisk(event):
             fetch = get(release_url, timeout=5)
         except Timeout:
             await event.reply(
-                "Haruka Aya have been trying to connect to Github User Content, It seem like Github User Content is down"
+                "Estella have been trying to connect to Github User Content, It seem like Github User Content is down"
             )
             return
 
