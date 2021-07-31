@@ -13,10 +13,10 @@ from telegram.ext.dispatcher import run_async, DispatcherHandlerStop, Dispatcher
 
 # Needed to dynamically load modules
 # NOTE: Module order is not guaranteed, specify that in the config file!
-from haruka.modules import ALL_MODULES
-from haruka import dispatcher, updater, LOGGER, TOKEN, tbot
-from haruka.modules.helper_funcs.misc import paginate_modules
-from haruka.modules.tr_engine.strings import tld
+from estella.modules import ALL_MODULES
+from estella import dispatcher, updater, LOGGER, TOKEN, tbot
+from estella.modules.helper_funcs.misc import paginate_modules
+from estella.modules.tr_engine.strings import tld
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -28,7 +28,7 @@ DATA_EXPORT = []
 
 GDPR = []
 
-importlib.import_module("haruka.modules.tr_engine.language")
+importlib.import_module("estella.modules.tr_engine.language")
 
 for module_name in ALL_MODULES:
     imported_module = importlib.import_module("haruka.modules." + module_name)
