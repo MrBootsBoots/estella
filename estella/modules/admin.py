@@ -8,8 +8,8 @@ from telegram.ext import CommandHandler, Filters
 from telegram.ext.dispatcher import run_async
 from telegram.utils.helpers import mention_html, escape_markdown
 
-from haruka import dispatcher
-from haruka.modules.disable import DisableAbleCommandHandler
+from estella import dispatcher
+from estella.modules.disable import DisableAbleCommandHandler
 from haruka.modules.helper_funcs.chat_status import bot_admin, user_admin, can_pin
 from haruka.modules.helper_funcs.extraction import extract_user
 from haruka.modules.log_channel import loggable
