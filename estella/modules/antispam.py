@@ -5,11 +5,11 @@ import requests
 from telegram import Update, Bot, ParseMode
 from telegram.ext import run_async, CommandHandler, MessageHandler, Filters
 
-import haruka.modules.sql.antispam_sql as sql
-from haruka import dispatcher, STRICT_ANTISPAM, spamwatch_api
-from haruka.modules.helper_funcs.chat_status import user_admin, is_user_admin
+import estella.modules.sql.antispam_sql as sql
+from estella import dispatcher, STRICT_ANTISPAM, spamwatch_api
+from estella.modules.helper_funcs.chat_status import user_admin, is_user_admin
 
-from haruka.modules.tr_engine.strings import tld
+from estella.modules.tr_engine.strings import tld
 
 GBAN_ENFORCE_GROUP = 6
 
