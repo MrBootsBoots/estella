@@ -6,12 +6,12 @@ from telegram.error import BadRequest
 from telegram.ext import Filters, MessageHandler, CommandHandler, run_async
 from telegram.utils.helpers import mention_html
 
-from haruka import dispatcher
-from haruka.modules.helper_funcs.chat_status import is_user_admin, user_admin, can_restrict
-from haruka.modules.log_channel import loggable
-from haruka.modules.sql import antiflood_sql as sql
+from estella import dispatcher
+from estella.modules.helper_funcs.chat_status import is_user_admin, user_admin, can_restrict
+from estella.modules.log_channel import loggable
+from estella.modules.sql import antiflood_sql as sql
 
-from haruka.modules.tr_engine.strings import tld
+from estella.modules.tr_engine.strings import tld
 
 FLOOD_GROUP = 3
 
