@@ -10,11 +10,11 @@ from telegram.utils.helpers import mention_html, escape_markdown
 
 from estella import dispatcher
 from estella.modules.disable import DisableAbleCommandHandler
-from haruka.modules.helper_funcs.chat_status import bot_admin, user_admin, can_pin
-from haruka.modules.helper_funcs.extraction import extract_user
-from haruka.modules.log_channel import loggable
-from haruka.modules.sql import admin_sql as sql
-from haruka.modules.tr_engine.strings import tld
+from estella.modules.helper_funcs.chat_status import bot_admin, user_admin, can_pin
+from estella.modules.helper_funcs.extraction import extract_user
+from estella.modules.log_channel import loggable
+from estella.modules.sql import admin_sql as sql
+from estella.modules.tr_engine.strings import tld
 
 from haruka.modules.connection import connected
 
