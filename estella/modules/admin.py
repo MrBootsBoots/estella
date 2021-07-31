@@ -16,7 +16,7 @@ from estella.modules.log_channel import loggable
 from estella.modules.sql import admin_sql as sql
 from estella.modules.tr_engine.strings import tld
 
-from haruka.modules.connection import connected
+from estella.modules.connection import connected
 
 
 @run_async
